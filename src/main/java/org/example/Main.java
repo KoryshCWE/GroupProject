@@ -39,6 +39,7 @@ public class Main extends TelegramLongPollingBot {
         if (update.hasMessage()){
             return update.getMessage().getFrom().getId();
         }
+
         if (update.hasCallbackQuery()){
             return update.getCallbackQuery().getFrom().getId();
         }

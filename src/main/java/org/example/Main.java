@@ -10,8 +10,6 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main extends TelegramLongPollingBot {
-    //GroupProjectGoitBot
-    //6432351541:AAGCMvMYC1UgpUDpKtDnOVF_hEM6SGdz-qE
     public static void main(String[] args) throws TelegramApiException {
         TelegramBotsApi api = new TelegramBotsApi(DefaultBotSession.class);
         api.registerBot(new Main());

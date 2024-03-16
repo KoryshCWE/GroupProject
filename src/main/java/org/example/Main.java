@@ -22,7 +22,7 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "токен ";
+        return "токен бота";
     }
 
     @Override

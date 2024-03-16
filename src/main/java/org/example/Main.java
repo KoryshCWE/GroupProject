@@ -31,7 +31,7 @@ public class Main extends TelegramLongPollingBot {
     public void onUpdateReceived(Update update) {
         Long chatId = getChatId(update);
         SendMessage message = new SendMessage();
-        message.setText("Hello");
+        message.setText("Hello, glad to see you. This bot will help you track currency exchange rates.");
         message.setChatId(chatId);
         sendApiMethodAsync(message);
 

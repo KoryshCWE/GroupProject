@@ -16,6 +16,14 @@ dependencies {
     // https://mvnrepository.com/artifact/org.telegram/telegrambots
     implementation("org.telegram:telegrambots:6.3.0")
 
+
+    dependencies {
+        implementation("com.fasterxml.jackson.core:jackson-databind:2.12.5")
+    }
+
+
+
+
 }
 
 tasks.test {
